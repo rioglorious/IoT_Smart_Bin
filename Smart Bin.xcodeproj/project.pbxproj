@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4761BB602857014900D5AC21 /* iot_dummy.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 4761BB5F2857014900D5AC21 /* iot_dummy.sqlite3 */; };
+		4761BB6E285701DC00D5AC21 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4761BB63285701DB00D5AC21 /* FMDatabasePool.m */; };
+		4761BB6F285701DC00D5AC21 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4761BB65285701DB00D5AC21 /* FMDatabaseAdditions.m */; };
+		4761BB70285701DC00D5AC21 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4761BB67285701DB00D5AC21 /* FMDatabaseQueue.m */; };
+		4761BB71285701DC00D5AC21 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4761BB6B285701DC00D5AC21 /* FMDatabase.m */; };
+		4761BB72285701DC00D5AC21 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4761BB6D285701DC00D5AC21 /* FMResultSet.m */; };
+		4761BB742857022300D5AC21 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BB732857022300D5AC21 /* Util.swift */; };
+		4761BB76285703B600D5AC21 /* MyTrashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BB75285703B600D5AC21 /* MyTrashModel.swift */; };
+		4761BB782857040800D5AC21 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BB772857040800D5AC21 /* ModelManager.swift */; };
+		4761BB7A2857117C00D5AC21 /* BinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BB792857117C00D5AC21 /* BinController.swift */; };
+		479081EC2856F5EF00B78A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479081EB2856F5EF00B78A28 /* AppDelegate.swift */; };
+		479081EE2856F5EF00B78A28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479081ED2856F5EF00B78A28 /* SceneDelegate.swift */; };
+		479081F02856F5EF00B78A28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479081EF2856F5EF00B78A28 /* ViewController.swift */; };
+		479081F32856F5EF00B78A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479081F12856F5EF00B78A28 /* Main.storyboard */; };
+		479081F52856F5F000B78A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479081F42856F5F000B78A28 /* Assets.xcassets */; };
+		479081F82856F5F000B78A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479081F62856F5F000B78A28 /* LaunchScreen.storyboard */; };
+		479082062856F9B600B78A28 /* AddLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479082052856F9B600B78A28 /* AddLogViewController.swift */; };
+		479082092856FCB100B78A28 /* MyTrashCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479082082856FCB100B78A28 /* MyTrashCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4761BB5F2857014900D5AC21 /* iot_dummy.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; name = iot_dummy.sqlite3; path = ../../../databases/iot_dummy.sqlite3; sourceTree = "<group>"; };
+		4761BB62285701DB00D5AC21 /* Smart Bin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smart Bin-Bridging-Header.h"; sourceTree = "<group>"; };
+		4761BB63285701DB00D5AC21 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		4761BB64285701DB00D5AC21 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		4761BB65285701DB00D5AC21 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		4761BB66285701DB00D5AC21 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		4761BB67285701DB00D5AC21 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		4761BB68285701DC00D5AC21 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		4761BB69285701DC00D5AC21 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		4761BB6A285701DC00D5AC21 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		4761BB6B285701DC00D5AC21 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		4761BB6C285701DC00D5AC21 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		4761BB6D285701DC00D5AC21 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		4761BB732857022300D5AC21 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		4761BB75285703B600D5AC21 /* MyTrashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTrashModel.swift; sourceTree = "<group>"; };
+		4761BB772857040800D5AC21 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		4761BB792857117C00D5AC21 /* BinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinController.swift; sourceTree = "<group>"; };
+		479081E82856F5EF00B78A28 /* Smart Bin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Bin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		479081EB2856F5EF00B78A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		479081ED2856F5EF00B78A28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		479081EF2856F5EF00B78A28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		479081F22856F5EF00B78A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		479081F42856F5F000B78A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		479081F72856F5F000B78A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		479081F92856F5F000B78A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Smart Bin/Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
+		479082052856F9B600B78A28 /* AddLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLogViewController.swift; sourceTree = "<group>"; };
+		479082082856FCB100B78A28 /* MyTrashCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTrashCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		479081E52856F5EF00B78A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4761BB612857018E00D5AC21 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				4761BB69285701DC00D5AC21 /* FMDatabase.h */,
+				4761BB6B285701DC00D5AC21 /* FMDatabase.m */,
+				4761BB64285701DB00D5AC21 /* FMDatabaseAdditions.h */,
+				4761BB65285701DB00D5AC21 /* FMDatabaseAdditions.m */,
+				4761BB6A285701DC00D5AC21 /* FMDatabasePool.h */,
+				4761BB63285701DB00D5AC21 /* FMDatabasePool.m */,
+				4761BB6C285701DC00D5AC21 /* FMDatabaseQueue.h */,
+				4761BB67285701DB00D5AC21 /* FMDatabaseQueue.m */,
+				4761BB66285701DB00D5AC21 /* FMDB.h */,
+				4761BB68285701DC00D5AC21 /* FMResultSet.h */,
+				4761BB6D285701DC00D5AC21 /* FMResultSet.m */,
+				4761BB62285701DB00D5AC21 /* Smart Bin-Bridging-Header.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		479081DF2856F5EF00B78A28 = {
+			isa = PBXGroup;
+			children = (
+				479081EA2856F5EF00B78A28 /* Smart Bin */,
+				479081E92856F5EF00B78A28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		479081E92856F5EF00B78A28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				479081E82856F5EF00B78A28 /* Smart Bin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		479081EA2856F5EF00B78A28 /* Smart Bin */ = {
+			isa = PBXGroup;
+			children = (
+				479082032856F62600B78A28 /* Helper */,
+				479082022856F61A00B78A28 /* Supporting Files */,
+				479082012856F61500B78A28 /* Model */,
+				479082002856F61000B78A28 /* View */,
+				479081FF2856F60900B78A28 /* Controller */,
+			);
+			path = "Smart Bin";
+			sourceTree = "<group>";
+		};
+		479081FF2856F60900B78A28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				479081EF2856F5EF00B78A28 /* ViewController.swift */,
+				479082052856F9B600B78A28 /* AddLogViewController.swift */,
+				4761BB792857117C00D5AC21 /* BinController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		479082002856F61000B78A28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				479082072856FC8500B78A28 /* Cell */,
+				479082042856F65F00B78A28 /* StoryBoard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		479082012856F61500B78A28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4761BB5F2857014900D5AC21 /* iot_dummy.sqlite3 */,
+				4761BB732857022300D5AC21 /* Util.swift */,
+				4761BB75285703B600D5AC21 /* MyTrashModel.swift */,
+				4761BB772857040800D5AC21 /* ModelManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		479082022856F61A00B78A28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				479081F92856F5F000B78A28 /* Info.plist */,
+				479081F42856F5F000B78A28 /* Assets.xcassets */,
+				479081EB2856F5EF00B78A28 /* AppDelegate.swift */,
+				479081ED2856F5EF00B78A28 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		479082032856F62600B78A28 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4761BB612857018E00D5AC21 /* FMDB */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		479082042856F65F00B78A28 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				479081F12856F5EF00B78A28 /* Main.storyboard */,
+				479081F62856F5F000B78A28 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		479082072856FC8500B78A28 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				479082082856FCB100B78A28 /* MyTrashCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		479081E72856F5EF00B78A28 /* Smart Bin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479081FC2856F5F000B78A28 /* Build configuration list for PBXNativeTarget "Smart Bin" */;
+			buildPhases = (
+				479081E42856F5EF00B78A28 /* Sources */,
+				479081E52856F5EF00B78A28 /* Frameworks */,
+				479081E62856F5EF00B78A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Bin";
+			productName = "Smart Bin";
+			productReference = 479081E82856F5EF00B78A28 /* Smart Bin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		479081E02856F5EF00B78A28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					479081E72856F5EF00B78A28 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 479081E32856F5EF00B78A28 /* Build configuration list for PBXProject "Smart Bin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 479081DF2856F5EF00B78A28;
+			productRefGroup = 479081E92856F5EF00B78A28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				479081E72856F5EF00B78A28 /* Smart Bin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		479081E62856F5EF00B78A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479081F82856F5F000B78A28 /* LaunchScreen.storyboard in Resources */,
+				479081F52856F5F000B78A28 /* Assets.xcassets in Resources */,
+				479081F32856F5EF00B78A28 /* Main.storyboard in Resources */,
+				4761BB602857014900D5AC21 /* iot_dummy.sqlite3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		479081E42856F5EF00B78A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4761BB742857022300D5AC21 /* Util.swift in Sources */,
+				479081F02856F5EF00B78A28 /* ViewController.swift in Sources */,
+				4761BB70285701DC00D5AC21 /* FMDatabaseQueue.m in Sources */,
+				4761BB6E285701DC00D5AC21 /* FMDatabasePool.m in Sources */,
+				4761BB71285701DC00D5AC21 /* FMDatabase.m in Sources */,
+				4761BB72285701DC00D5AC21 /* FMResultSet.m in Sources */,
+				479081EC2856F5EF00B78A28 /* AppDelegate.swift in Sources */,
+				479081EE2856F5EF00B78A28 /* SceneDelegate.swift in Sources */,
+				4761BB782857040800D5AC21 /* ModelManager.swift in Sources */,
+				4761BB7A2857117C00D5AC21 /* BinController.swift in Sources */,
+				479082062856F9B600B78A28 /* AddLogViewController.swift in Sources */,
+				4761BB6F285701DC00D5AC21 /* FMDatabaseAdditions.m in Sources */,
+				4761BB76285703B600D5AC21 /* MyTrashModel.swift in Sources */,
+				479082092856FCB100B78A28 /* MyTrashCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		479081F12856F5EF00B78A28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				479081F22856F5EF00B78A28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		479081F62856F5F000B78A28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				479081F72856F5F000B78A28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		479081FA2856F5F000B78A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		479081FB2856F5F000B78A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		479081FD2856F5F000B78A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6S6K47V55;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart Bin/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.rioglorious.Smart-Bin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Smart Bin/Helper/FMDB/Smart Bin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		479081FE2856F5F000B78A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6S6K47V55;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart Bin/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.rioglorious.Smart-Bin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Smart Bin/Helper/FMDB/Smart Bin-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		479081E32856F5EF00B78A28 /* Build configuration list for PBXProject "Smart Bin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479081FA2856F5F000B78A28 /* Debug */,
+				479081FB2856F5F000B78A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479081FC2856F5F000B78A28 /* Build configuration list for PBXNativeTarget "Smart Bin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479081FD2856F5F000B78A28 /* Debug */,
+				479081FE2856F5F000B78A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 479081E02856F5EF00B78A28 /* Project object */;
+}
